@@ -17,6 +17,7 @@ public class Teste {
 	public static void main(String[] args) throws Exception {
 		// Constroi o vetor.
 		Double[] v = construirVetor();
+		System.out.println(Arrays.toString(v));
 
 		// Ordena o vetor.
 		Arrays.sort(v, new ComparatorDouble());
